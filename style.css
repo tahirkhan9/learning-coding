@@ -241,4 +241,28 @@ footer{
 
 .foot-panel2{
     background-color: #222f3d;
+    color: white;
+    height: 300px;
+    
+}
+
+ul a{
+    display: block;
+    justify-content: space-evenly;
+}
+
+
+.foot-panel3{
+    background-color: #222f3d;
+    border-top: 0.5px;
+    height: 70px;
+    
+
+}
+
+.logo{
+    background-image: url(".vscode/image/amazon_logo.png");
+    height: 50px;
+    background-size: cover;
+    width: 100px;
 }
