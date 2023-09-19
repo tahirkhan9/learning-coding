@@ -171,54 +171,71 @@ span{
     width: 23%;
     background-color: white;
     padding: 20px 0px 15px;
+    
 }
 
 .box-img{
     background-image: url(".vscode/image/box1_image.jpg");
-    height: 350px;
+    height: 300px;
     background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .box-img2{
     background-image: url(".vscode/image/box2_image.jpg");
     height: 350px;
     background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .box-img3{
     background-image: url(".vscode/image/box3_image.jpg");
     height: 350px;
     background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .box-img4{
     background-image: url(".vscode/image/box4_image.jpg");
     height: 350px;
     background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .box-img{
     background-image: url(".vscode/image/box1_image.jpg");
     height: 350px;
     background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .box-img2{
     background-image: url(".vscode/image/box2_image.jpg");
     height: 350px;
     background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .box-img3{
     background-image: url(".vscode/image/box3_image.jpg");
     height: 350px;
     background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .box-img4{
     background-image: url(".vscode/image/box4_image.jpg");
     height: 350px;
     background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* footer */
@@ -256,13 +273,15 @@ ul a{
     background-color: #222f3d;
     border-top: 0.5px;
     height: 70px;
+    margin-bottom: 15px;
     
 
 }
 
 .logo{
     background-image: url(".vscode/image/amazon_logo.png");
-    height: 50px;
+    height: 100px;
     background-size: cover;
     width: 100px;
+    margin-bottom: 15px;
 }
