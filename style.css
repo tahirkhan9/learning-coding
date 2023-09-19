@@ -164,6 +164,7 @@ span{
     display: flex;
     justify-content: space-evenly;
     background-color: #e2e7e6;
+    
 }
 .box{
     border: 2px solid black;
@@ -171,6 +172,7 @@ span{
     width: 23%;
     background-color: white;
     padding: 20px 0px 15px;
+    
     
 }
 
@@ -180,6 +182,7 @@ span{
     background-size: cover;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 .box-img2{
@@ -188,6 +191,7 @@ span{
     background-size: cover;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 .box-img3{
@@ -196,6 +200,7 @@ span{
     background-size: cover;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 .box-img4{
@@ -204,6 +209,7 @@ span{
     background-size: cover;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 .box-img{
@@ -212,6 +218,7 @@ span{
     background-size: cover;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 .box-img2{
@@ -220,6 +227,7 @@ span{
     background-size: cover;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 .box-img3{
@@ -228,6 +236,7 @@ span{
     background-size: cover;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 .box-img4{
@@ -236,6 +245,7 @@ span{
     background-size: cover;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 /* footer */
@@ -273,15 +283,12 @@ ul a{
     background-color: #222f3d;
     border-top: 0.5px;
     height: 70px;
-    margin-bottom: 15px;
-    
-
 }
 
 .logo{
     background-image: url(".vscode/image/amazon_logo.png");
-    height: 100px;
+    height: 50px;
+    width: 100%;
     background-size: cover;
-    width: 100px;
-    margin-bottom: 15px;
 }
+
