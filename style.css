@@ -1,25 +1,115 @@
-.box{
-    height: 400px;
-    width: 400px;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url(".vscode/image/roberto-nickson-emqnSQwQQDo-unsplash.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
     margin: auto;
-    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    padding: 35px 0px;
+    justify-content: space-between;
+    
+}
+
+.navbar img{
+    height: 100px;
+    width: 120px;
+    cursor: pointer;
+    font-size: 70px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
     position: relative;
 }
 
-.add{
-    width: 100%;
-    font-size: 30px;
-    position: absolute;
-    background-color: grey;
+.navbar ul a{
+    text-decoration: none;
     color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: #009688;
+    position: absolute;
     left: 0;
-    bottom: -40px;
-    opacity: 0;
-    transition: 1s;
+    bottom: -10px;
+    transition: 0.5s;
 
 }
 
-.box:hover .add{
-    bottom: 0px;
-    opacity: 1;
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: white;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+span{
+    height: 100%;
+    width: 0;
+    background: #009688;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    transition: 0.5s;
+    
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
 }
