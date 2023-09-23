@@ -1,115 +1,105 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
 }
 
-.banner{
-    height: 100vh;
+.hero{
     width: 100%;
-    background-image: url(".vscode/image/roberto-nickson-emqnSQwQQDo-unsplash.jpg") ;
+    min-height: 100vh;
+    background-image: url(".vscode/image/back-image.png");
     background-size: cover;
     background-position: center;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
 }
 
-.navbar {
-    width: 85%;
-    margin: auto;
-    align-items: center;
+nav{
+    padding: 10px 0;
     display: flex;
-    padding: 35px 0px;
+    align-items: center;
     justify-content: space-between;
-    
 }
 
-.navbar img{
-    height: 100px;
-    width: 120px;
-    cursor: pointer;
-    font-size: 70px;
+.logo{
+    width: 140px;
 }
 
-.navbar ul li{
+nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 0 20px;
-    position: relative;
+    margin: 10px 15px;
 }
 
-.navbar ul a{
+nav ul li a{
+   text-decoration: none;
+   color: #333;
+   font-weight: 400;
+}
+
+.login-btn{
     text-decoration: none;
-    color: white;
-    text-transform: uppercase;
+    font-weight: 300;
+    color: #333;
+    margin: 10px 25px;
 }
 
-.navbar ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background-color: #009688;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(313, 96%, 35%);
+    background-image: linear-gradient(45deg,#df4881,#c430d7);
+    border-radius: 30px;
+    padding: 14px 40px ;
+    font-size: 14px;
+    border-top-right-radius: 0;
+    transition: 0.5;
 }
-
-.navbar ul li:hover::after{
-    width: 100%;
-}
-
 .content{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    text-align: center;
-    color: white;
+    margin-top: 10%;
+    max-width: 600;
 }
-
 .content h1{
     font-size: 70px;
-    margin-top: 80px;
+    color: #222;
 }
-
 .content p{
-    margin: 20px auto;
-    font-weight: 100;
-    line-height: 25px;
+    margin: 10px 0 30px;
+    color: #333;
+    animation-name: 0.5s;
 }
 
-button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #009688;
-    background: transparent;
-    color: white;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    
+.content btn{
+    padding: 15px 80px;
+    font-size: 16px;
+    animation-delay: 1s;
 }
 
-span{
-    height: 100%;
-    width: 0;
-    background: #009688;
-    border-radius: 25px;
+.btn:hover{
+    border-top-right-radius: 30px;
+}
+
+.feature-img{
+    width: 530px;
     position: absolute;
-    left: 0;
+    right: 10%;
     bottom: 0;
-    
-    transition: 0.5s;
-    
+}
+.feature-img anim{
+    animation-delay: 1.5s;
 }
 
-button:hover span{
-    width: 100%;
+.anim{
+    opacity: 1;
+    transform: translateY(30px);
+    animation: moveuo 1s linear forwards;
 }
 
-button:hover{
-    border: none;
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }

@@ -64,7 +64,7 @@ Data type in Javascript
 
 */
 
-var arr = [1,2,"tahir",4,5]
+var arr = [1, 2, "tahir", 4, 5]
 
 // console.log(arr);
 
@@ -106,13 +106,13 @@ var y = 56;
 // finction in Jvascript
 // Dry do not repeat yourself
 
-function avg(a,b) {
-    c = (a + b)/2;
+function avg(a, b) {
+    c = (a + b) / 2;
     return c;
 }
 
 c1 = avg(4, 6);
-c2 = avg( 14, 16);
+c2 = avg(14, 16);
 // console.log(c1, c2);
 
 // Conditionala in Javascript
@@ -127,13 +127,77 @@ var age = 1;
 //     console.log('you are kid')
 // }
 
-var arr = [1,2,3,4,5,6,7];
+var arr = [1, 2, 3, 4, 5, 6, 7];
 // console.log(arr);
 // for (var i = 0;i<arr.length; i++){
-//     console.log(arr[i])
+    // if (i==2){
+        // break;
+        // continue;
+    // }
+    // console.log(arr[i])
 // }
 
-arr. forEach(function(element){
-    console.log(element)
+// arr.forEach(function (element) {
+    // console.log(element);
 
-})
+// })
+
+let j = 0;
+// while(j<arr.length){
+    // console.log(arr[j]);
+    // j ++;
+// }
+
+// do {
+    // console.log(arr[j]);
+    // j ++;
+// } while (j < arr.length);
+
+
+
+// elemClass[0].style.background = "yellow";
+
+let myArr = ["Fan","Camera",34,null,true];
+// Array.Methods
+// console.log(myArr.length)
+
+// myArr.pop();
+// myArr.push("harry");
+// myArr.shift();
+// myArr.unshift("harry");
+// console.log(myArr);
+
+// String Methods in Javascript
+let myLovelystring = "Harry is good boy good good"
+// console.log(myLovelystring.length);
+// console.log(myLovelystring.indexOf("good"))
+// console.log(myLovelystring.lastIndexOf("good"))
+
+// console.log(myLovelystring.slice(1,3))
+
+d = myLovelystring.replace("Harry","Rohan")
+// console.log(d,myLovelystring)
+
+// let myDate = new Date();
+// console.log(myDate.getTime());
+// console.log(myDate.getFullyear());
+// console.log(myDate.getDay());
+// console.log(myDate.getHours());
+// console.log(myDate.getMinutes());
+
+//  Dom Manipulation
+// let elem = document.getElementById('click');
+// console.log(elem);
+// let elemClass = document.getElementsByClassName("conatiner");
+// console.log(elemClass);
+// elemClass[0].style.background ="yellow";
+// selecting using Quesry
+
+// function clicked(){
+//     console.log('the button was clicked');
+// }
+
+// window.onload = function(){
+//     console.log('the document was loded');
+
+// }
