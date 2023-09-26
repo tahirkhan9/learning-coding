@@ -1,169 +1,115 @@
 *{
     margin: 0;
     padding: 0;
+    border: border-box;
     font-family: sans-serif;
 }
 
-.container{
+.hero{
     width: 100%;
     height: 100vh;
-    background: #42455a
+    padding: 10px 10%;
 }
 
-.hero ul{
-    display: inline-flex;
-    margin: 50px;
-}
-
-.hero ul li{
-    display: inline-block;
-    margin: 0 20px;
-    color: white;
-    list-style: none;
-    cursor: pointer;
-}
-
-.hero ul li:hover{
-    color: #fd00da;
-}
-
-.logo img{
-    width: 100px;
-    margin-top: -7px;
-    margin-right: 48px;
-}
-
-.active{
-    color: #19dafa !important;
-}
-
-.signup-btn {
-    color: white;
-    top: 40px;
-    right: 70px;
-    position: absolute;
-    text-decoration: none;
-    border: 2px solid transparent;
-    border-radius: 20px;
-    background-image:  radial-gradient(circle at top left,#fd00da,#19d7f8);
-    background-origin: border-box;
-    background-clip: content-box,border-box;
-    
-}
-
-.signup-btn span {
-    display: block;
-    padding: 8px 22px;
-}
-
-.banner{
-    color: white;
+nav{
     width: 80%;
-    height: 70%;
-    top: 25%;
-    left: 140px;
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.App-text{
-    width: 50%;
-    float: left;
+nav .logo{
+    width: 150px;
+   cursor: pointer;
 }
 
-.App-text h1{
-    font-size: 40px;
-    width: 640px;
-    position: relative;
-    margin-left: 40px;
-}
-
-.App-text p{
-    margin-top: 25px;
-    font-size: 20px;
-    margin-right: 10px;
-    color: green;
-}
-
-.app-picture{
-    width: 50%;
-    float: right;
-}
-
-.app-picture img{
-    width: 70%;
-    margin-bottom: -90px;
-    padding-right: 20px;
-   
-}
-
-.play-btn{
-    margin-top: 25px;
-    margin-left: 10px;
-    display: inline-flex;
-}
-
-.play-btn-inner {
-    height: 50px;
+nav .menu-icon{
     width: 50px;
-    border: 2px solid transparent;
-    border-radius: 50%;
-    background-image:  radial-gradient(circle at top left,#fd00da,#19d7f8);
-    background-origin: border-box;
-    background-clip: content-box,border-box;
-    text-align: center;
-}
-
-.play-btn-inner .fa{
-    padding-bottom: 18px ;
-    font-size: 13px;
-    cursor: pointer;
-}
-
-small{
-    margin: 20px;
-    font-size: 15px;
-    cursor: pointer;
-    color: #19dafa;
-    letter-spacing: 3px;
-}
-
-.quick-links{
-    left: 0;
-    bottom: 0;
-    position: absolute;
-    background-color: #6b1294;
+   cursor: pointer;
 
 }
 
-.quick-links ul{
-    display: inline-flex;
-    margin: 25px auto;
-    text-align: center;
+nav ul{
+    flex: 1;
+    text-align: right;
+    margin-right: 150px;
+
 }
 
-.quick-links ul li{
+nav ul li{
     list-style: none;
-    margin: 0 50px;
-    cursor: pointer;
+    display: inline-block;
+    margin: 10px 15px;
 }
 
-.quick-links ul li.fa{
-    font-size: 25px;
-    color: white;
+nav ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    position: relative;
+    padding: 10px;
 }
 
-.quick-links ul li p{
-    margin-top: 15px;
-    font-size: 10px;
-    color: white;
-}
 
-.social-icons{
-    right: 72px ;
-    bottom: 35px;
+nav ul li a::before{
+    content: '';
+    width: 100%;
+    height: 0;
     position: absolute;
-    
-
+    background: #d9f688;
+    left: 0;
+    bottom: -5px;
+    z-index: -1;
+    transition: height 0.5s;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 
 }
 
+nav ul li a:hover:before{
+    height: 85px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis: 50%;
+    position: relative;
+}
+
+.feature-img{
+    width: 70%;
+    margin-top: 10px;
+    margin-right: 10px;
+    right: 20px;
+}
+
+.thumbail-img{
+   width: 280px;
+   position: absolute;
+   left: 0;
+   bottom: 10px;
+   border-radius: 8px;
+   box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.col{
+    margin-top: 180px;
+    font-size: 40px;
+}
+
+.col a{
+    text-decoration: none;
+    background-color: #d9f688;
+    border-radius: 30px;
+    margin-top: 70px;
+    color: black;
+    font-weight: 700;
+    pad: 10px 50px;
+    display: inline-block;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.1);
+    
+}
