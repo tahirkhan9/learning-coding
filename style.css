@@ -1,156 +1,227 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    box-sizing: border-box;
 }
 
-body {
-    background-image: url("image/background-img.avif");
-    background-size: cover;
-    background-position: center;
-
+.main{
+    height: 100vh;
+    background: linear-gradient(#21b3e1,#fff);
+    overflow: hidden;
+    position: relative;
+    
 }
 
-.menu-bar {
-    background-color: rgb(0, 100, 0);
-    text-align: center;
+.navbar{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #b7e7f6;
 }
 
-.menu-bar ul {
-    display: inline-flex;
+nav{
+    width: 80%;
+    margin: 20px auto 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+
+.logo{
+    flex-basis: 35%;
+    width: 100px;
+}
+
+.nav .logo-img{
+    width: 50px;
+}
+
+.nav-link ul li{
+    display: inline-block;
     list-style: none;
-    color: white;
-
+    padding: 10px 5px;
+    margin: 0 25px;
+    position: relative;
 }
 
-.menu-bar ul li {
-    width: 120px;
-    margin: 15px;
-    padding: 15px;
-}
-
-.menu-bar ul li a {
+.nav-link ul li a{
     text-decoration: none;
-    color: white;
-
+    color: #b7e7f6;
 }
 
-.active,
-.menu-bar ul li:hover {
-    background: #2bab0d;
-    border-radius: 3px;
-
-}
-
-.menu-bar .fa {
-
-    margin-right: 10px;
-}
-
-.sub-menu-1 {
-    display: none;
-}
-
-.menu-bar ul li:hover .sub-menu-1 {
-    display: block;
-    position: absolute;
-    margin-top: 15px;
-    margin-left: -15px;
-    background: rgb(0, 100, 0);
-    margin: 10px;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul {
-    margin: 10px;
-    display: block;
-}
-
-
-.menu-bar ul li:hover .sub-menu-1 ul li {
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted white;
+.nav-link ul li::after{
+    content: '';
+    width: 100%;
+    height: 3px;
     background: transparent;
-    border-radius: 0;
-    text-align: left;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
-    border-bottom: none;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
-    color: brown;
-}
-
-.sub-menu-2 {
-    display: none;
-}
-
-.menu-bar ul li:hover .sub-menu-2 {
-    display: block;
     position: absolute;
-    margin-top: 15px;
-    margin-left: -15px;
-    background: rgb(0, 100, 0);
+   
+    bottom: 0;
+    left: 0;
 
 }
 
-.menu-bar ul li:hover .sub-menu-2 ul {
-    margin: 10px;
-    display: block;
+.nav-link ul li:hover::after{
+    background: white;
 }
 
-.menu-bar ul li:hover .sub-menu-2 ul li {
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted white;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
+.active::after{
+    background: white !important;
 }
 
-.menu-bar ul li:hover .sub-menu-2 ul li:last-child {
-    border-bottom: none;
+.menu-icon{
+    flex-basis: 15%;
 }
 
-.menu-bar ul li:hover .sub-menu-2 ul li a:hover {
-    color: brown;
+.menu-icon img{
+    width: 35px;
+    float: right;
 }
 
-.sub-menu-3 {
-    display: none;
-
-}
-
-.menu-bar ul li:hover .sub-menu-3 {
-    display: block;
+.content{
+    width: 300px;
+    text-align: center;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
     position: absolute;
-    margin-top: 15px;
-    margin-left: -15px;
-    background: rgb(0, 100, 0);
-
 }
 
-.menu-bar ul li:hover .sub-menu-3 ul {
-    margin: 10px;
-    display: block;
+.social-icons img{
+    width: 18px;
+    margin: 0 10px;
+    cursor: pointer;
 }
 
-.menu-bar ul li:hover .sub-menu-3 ul li {
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted white;
+.search-box{
+    margin-top: 20px;
+    border: 1px solid #b7e7f6;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,.2));
+}
+ 
+.search-box input{
+    width: 100%;
+    padding: 7px 15px;
     background: transparent;
-    border-radius: 0;
-    text-align: left;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #b7e7f6;
 }
 
-.menu-bar ul li:hover .sub-menu-3 ul li:last-child {
-    border-bottom: none;
+::placeholder{
+    color: #fff;
 }
 
-.menu-bar ul li:hover .sub-menu-3 ul li a:hover {
-    color: brown;
+.search-box img{
+    width: 20px;
+    margin: 5px 10px;
+}
+
+#clouds{
+    width: 100%;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    animation: clouds 5s linear infinite;
+
+}
+
+
+@keyframes clouds{
+0%{
+        top: -100px;
+      }
+      20%{
+        top: 100px;
+      }
+      80%{
+        top: 100px;
+      }
+      100%{
+        top: -100px;
+      }
+}
+
+
+#airplane{
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    left: -250px;
+    animation: fly 5s linear infinite;
+
+
+}
+
+
+@keyframes fly{
+    0%{
+        left: -250px;
+          }
+          20%{
+            left: 250px;
+          }
+          80%{
+            left: 250px;
+          }
+          100%{
+            left: 110%;
+          }
+    }
+
+#hotairballoon{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    bottom: -450px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: hotairballoon 5s linear infinite;
+
+}
+
+@keyframes hotairballoon{
+    0%{
+        bottom: -450px;
+          }
+          20%{
+            bottom: 100px;
+          }
+          80%{
+            bottom: 100px;
+          }
+          100%{
+            bottom: -450px;
+          }
+    }
+
+.balloon1{
+    width: 150px;
+    opacity: 0.4;
+}
+
+.balloon2{
+    width: 350px;
+    opacity: 0.4;
+}
+.balloon3{
+    width: 180px;
+    opacity: 0.5;
+}
+
+#myImg{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
 }
