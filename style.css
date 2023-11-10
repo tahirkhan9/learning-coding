@@ -397,82 +397,208 @@
         text-align: center;
         color: #fff;
       }
-
-      img.menu {
-        width: 233px;
-        height: 252px;
-        margin: 87px 35px 134px 25px;
-        object-fit: contain;
-        box-shadow: -1px 10px 12px 0 rgba(0, 0, 0, 0.13);
-      }
-
-      .Rectangle3 {
-        width: 268px;
-        height: 377px;
-        margin: 0 42px 11px 24px;
-        padding: 22px 5px 13px;
-        border-radius: 6px;
-        background-color: #59eaf3;
-        margin-right: 10%;
-      }
-
-      .Oval1 {
-        width: 91px;
-        height: 91px;
-        margin: 0 83px 23px 84px;
-        padding: 24px 25px;
-        background-color: #4fcbd3;
-      }
-
-      .Shape {
-        width: 40.4px;
-        height: 42.6px;
-        background-color: #fff;
-      }
-
-      .-Receive-Matches {
-        width: 258px;
-        height: 31px;
-        margin: 23px 0 11px;
+      .Content-Creation-Mad {
+        width: 398px;
+        height: 38px;
+        margin: 0 0 16px;
         font-family: CircularStd;
-        font-size: 19px;
-        font-weight: bold;
+        font-size: 30px;
+        font-weight: 500;
         font-stretch: normal;
         font-style: normal;
         line-height: normal;
         letter-spacing: normal;
         text-align: center;
-        color: #fff;
+        color: #000;
       }
-      
-      img.target {
-        width: 211px;
-        height: 186px;
-        margin: 11px 23px 0 24px;
+
+      h1.Content-Creation-Ma{
+        text-align: center;
+        margin-left: 10%;
+      }
+
+      .Home-Landign-Page {
+        width: 1280px;
+        height: 5558px;
+        background-color: white;
+       
+      }
+      img.We-facilitate-beauti {
+        width: 844px;
+        height: 31px;
+        margin: 22px 133px 534px;
         object-fit: contain;
         font-family: CircularStd;
         font-size: 18px;
         font-weight: normal;
         font-stretch: normal;
         font-style: normal;
-        line-height: 1.28;
+        line-height: 0.17;
         letter-spacing: normal;
         text-align: center;
-        color: #fff;
+        color: #6a7575;
       }
 
-      .Rectangle4 {
-        width: 1280px;
-        height: 570px;
-        margin: 329px 0 0;
-        padding: 151px 85px 31px 97px;
-        background-color: #fff;
+      h5 img.We-facilitate-beauti{
+        text-align: center;
+        margin-left: 10%;
+      }
+     
+      img.Content-Creation-Made-Easy {
+        width: 1110px;
+        height: 563px;
+        margin: 24px 0 0;
+        object-fit: contain;
       }
       
-      .Oval2 {
-        width: 91px;
-        height: 91px;
-        margin: 0 83px 23px 84px;
-        padding: 24px 25px;
-        background-color: #4fcbd3;
+      .Rectangle4 {
+        width: 1280px;
+        height: 597px;
+        margin: 86px 0 48px;
+        padding: 63px 144px 84px 165px;
+        background-color: #f9faff;
       }
+      .Full-Stack-Influence {
+        width: 642px;
+        height: 36px;
+        margin: 0 175px 18px 154px;
+        font-family: CircularStd;
+        font-size: 30px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+      }
+
+      img.Group-14 {
+        width: 340px;
+        height: 340px;
+        margin: 50px 63px 0 0;
+        object-fit: contain;
+       
+      }
+
+      .Rectangle5 {
+        width: 1280px;
+        height: 597px;
+        margin: 86px 0 48px;
+        padding: 63px 144px 84px 165px;
+        background-color: #f9faff;
+      }
+
+      .Rectangle6 {
+        width: 1280px;
+        height: 597px;
+        margin: 86px 0 48px;
+        padding: 63px 144px 84px 165px;
+        background-color: #f9faff;
+      }
+
+      .Prove-Your-Influence {
+        width: 476px;
+        height: 120px;
+        margin: 83px 0 14px 155px;
+        font-family: CircularStd;
+        font-size: 40px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000;
+      }
+
+      .Rectangle7 {
+        width: 100%;
+        height: 100px;
+        margin: 86px 0 48px;
+        padding: 63px 144px 84px 165px;
+        background-color: #f9faff;
+      }
+
+      img.Make-data-driven-dec {
+        width: 456px;
+        height: 149px;
+        margin: 14px 20px 24px 155px;
+        object-fit: contain;
+        font-family: CircularStd;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        color: #6a7575;
+      }
+
+      .Create-Unlimited-Brn {
+        width: 506px;
+        height: 38px;
+        margin: 0 239px 16px 201px;
+        font-family: CircularStd;
+        font-size: 30px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+      }
+
+      .Rectangle8 {
+        width: 145px;
+        height: 6px;
+        margin: 16px 419px 31px 382px;
+        border-radius: 4.5px;
+        background-color: aqua;
+      }
+
+      img.Turn-your-influencer {
+        width: 946px;
+        height: 52px;
+        margin: 31px 0 0;
+        object-fit: contain;
+        font-family: CircularStd;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        text-align: center;
+        color: #6a7575;
+      }
+
+      
+img.Group-17 {
+    width: 1280px;
+    height: 277px;
+    margin: 39px 0 0;
+    object-fit: contain;
+    align-items: center;
+  }
+  .Path {
+    width: 2.7px;
+    height: 2.7px;
+    margin: 0.7px 3.4px 3.1px 2.5px;
+    background-color: #263237;
+  }
+  .fame {
+    width: 66.8px;
+    height: 20.8px;
+    margin: 0.2px 0 0 2.5px;
+    background-color: var(--robins-egg);
+  }  
+  
+
+      
+
+      
+      
+      
+      
+      
