@@ -512,7 +512,7 @@ border: 2px solid red;
       line-height: normal;
       letter-spacing: normal;
       color: #000;
-      float: right;
+     
     }
 
     .Rectangle7 {
@@ -526,7 +526,7 @@ border: 2px solid red;
     img.Make-data-driven-dec {
       width: 456px;
       height: 149px;
-      margin: 14px 20px 24px 155px;
+      margin: 14px 20px 25px 155px;
       object-fit: contain;
       font-family: CircularStd;
       font-size: 18px;
