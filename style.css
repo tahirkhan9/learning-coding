@@ -512,6 +512,7 @@ border: 2px solid red;
       line-height: normal;
       letter-spacing: normal;
       color: #000;
+      float: right;
     }
 
     .Rectangle7 {
