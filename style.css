@@ -109,7 +109,7 @@ border: 2px solid red;
     h2 {
       width: 462px;
       height: 105px;
-      margin: 19px 80px 18px 2px;
+      margin: 19px 80px 18px 60px;
       font-family: CircularStd;
       font-size: 22px;
       font-weight: normal;
@@ -136,6 +136,7 @@ border: 2px solid red;
       border: 2px solid aqua;
       border-radius: 25px;
       padding: 13px 19px;
+      margin-left: 70px;
      
     }
 
