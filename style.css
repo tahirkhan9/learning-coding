@@ -11,6 +11,7 @@
     top: 0;
     z-index: 10;
 }
+  
 
 .navbar{
     width: 85%;
@@ -71,6 +72,13 @@
         border-radius: 25px;
         padding: 10px 10px;
       }
+      .Rectangle9 {
+        width: 1280px;
+        height: 556px;
+        margin: 75px 0 30px;
+        padding: 65px 0 86px 120px;
+        background-color: var(--white);
+      }
     
       h1 {
         width: 548px;
@@ -84,17 +92,10 @@
         line-height: 1.45;
         letter-spacing: normal;
         color: #000;
+        text-align: center;
+       
+       
       }
-
-     .main {
-        width: 616px;
-        height: 387px;
-        margin: 0 0 18px 80px;
-        object-fit: contain;
-        border: solid 1px #eee;
-        float: right;
-      }
-
       h2 {
         width: 462px;
         height: 105px;
@@ -107,8 +108,10 @@
         line-height: 1.27;
         letter-spacing: normal;
         color: #5d5d5d;
+        text-align: center;
+       
       }
-
+      
       .IM-A-BRAND {
         width: 178px;
         height: 20px;
@@ -124,7 +127,29 @@
         border: 2px solid aqua;
         border-radius: 25px;
         padding: 13px 19px;
+       
       }
+
+     .main {
+        width: 616px;
+        height: 387px;
+        margin: 0 0 18px 80px;
+        object-fit: contain;
+        border: solid 1px #eee;
+        float: right;
+        
+      }
+
+      .know{
+        text-align: center;
+      }
+
+      .plug{
+        align-items: center;
+      }
+
+     
+
 
       .blog {
         width: 178px;
@@ -158,13 +183,13 @@
         letter-spacing: normal;
         text-align: center;
         color: #000;
-        padding-top: 400px;
+        padding-top: 700px;
       }
       
       .know {
         width: 476px;
         height: 120px;
-        /* margin: 132px 70px 14px 0; */
+        margin: 132px 70px 14px 0;
         font-family: CircularStd;
         font-size: 40px;
         font-weight: 500;
@@ -173,12 +198,13 @@
         line-height: normal;
         letter-spacing: normal;
         color: #000;
-        margin-left: 15px;
+       top: 10px;
+       
       }
       .plug {
         width: 456px;
         height: 120px;
-        margin: 14px 90px 106px 0;
+        margin: 250px 90px 170px 200px;
         object-fit: contain;
         font-family: CircularStd;
         font-size: 18px;
@@ -224,7 +250,7 @@
       .Rectangle {
         width: 1280px;
         height: 425px;
-        margin: 59px 0 74px;
+        margin: 300px 0 74px;
         padding: 79px 192px 76px 186px;
         background-color: #f9faff;
       }
@@ -367,36 +393,6 @@
         background-color: #fff;
       }
 
-      .-Promote {
-        width: 174px;
-        height: 24px;
-        margin: 23px 19px 18px 18px;
-        font-family: CircularStd;
-        font-size: 19px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
-        letter-spacing: normal;
-        text-align: center;
-        color: #fff;
-      }
-
-      img.back {
-        width: 211px;
-        height: 173px;
-        margin: 18px 0 0;
-        object-fit: contain;
-        font-family: CircularStd;
-        font-size: 18px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.28;
-        letter-spacing: normal;
-        text-align: center;
-        color: #fff;
-      }
       .Content-Creation-Mad {
         width: 398px;
         height: 38px;
@@ -439,10 +435,7 @@
         color: #6a7575;
       }
 
-      h5 img.We-facilitate-beauti{
-        text-align: center;
-        margin-left: 10%;
-      }
+     
      
       img.Content-Creation-Made-Easy {
         width: 1110px;
@@ -592,7 +585,8 @@ img.Group-17 {
     height: 20.8px;
     margin: 0.2px 0 0 2.5px;
     background-color: var(--robins-egg);
-  }  
+  } 
+  
   
 
       
