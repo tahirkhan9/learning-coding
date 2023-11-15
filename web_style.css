@@ -86,9 +86,9 @@
 
   .Rectangle9 {
     width: 1280px;
-    height: 556px;
+    height: 290px;
     margin: 75px 0 30px;
-    /* padding: 65px 0 86px 120px; */
+    padding: 10px 0 86px 120px;
     background-color: var(--white);
   }
 
@@ -150,4 +150,72 @@
     float: right;
     
   }
+
+  .Data-is-sourced-and {
+    width: 415px;
+    height: 48px;
+    margin: 4px 0 0 28px;
+    font-family: CircularStd;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #6a7575;
+  }
+  .Rectangle {
+    width: 1280px;
+    height: 300px;
+    /* margin: 40px 0 40px; */
+    padding: 10px 65px 30px 65px;
+    background-color:  #f9faff;
+  }
   
+  .IDENTIFICATION {
+    width: 240px;
+    height: 44px;
+    margin: 3px 175px 4px 28px;
+    font-family: CircularStd;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.2;
+    letter-spacing: normal;
+    color: #283040;
+    background-color: white;
+  }
+  .An-automated-plannin {
+    width: 415px;
+    height: 48px;
+    font-family: CircularStd;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #6a7575;
+  }
+  
+  
+  
+.PLANNING {
+  width: 236px;
+  height: 44px;
+  font-family: CircularStd;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.2;
+  letter-spacing: normal;
+  color: #283040;
+}
+.Artboard3x {
+    width: 841px;
+    height: 492.1px;
+    margin: 0 0 23.4px;
+    border: solid 1.3px #dfd9d9;
+  }
