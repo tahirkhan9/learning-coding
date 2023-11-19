@@ -171,7 +171,7 @@ h2 {
 .content-text  {
   width: 415px;
   height: 48px;
-  margin: 4px 0 0 28px;
+  margin: 4px  0;
   font-family: CircularStd;
   font-size: 16px;
   font-weight: normal;
@@ -280,3 +280,133 @@ img.We-are-an-Influencer {
 
 
 
+.Creative-strategy-an {
+  width: 824px;
+  height: 36px;
+  margin: 0 39px 18px;
+  font-family: CircularStd;
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+.Rectangle1 {
+  width: 1279px;
+  height: 396px;
+  margin: 150px 0 57px 1px;
+  padding: 86px 309px 110px 310px;
+  border: solid 1px #e0e0e0;
+  background-color: var(--white);
+}
+.Schedule-Your-Demo-T {
+  width: 562px;
+  height: 51px;
+  margin: 0 49px 70px;
+  font-family: CircularStd;
+  font-size: 40px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+}
+
+
+.Enter-you-email {
+  width: 168px;
+  height: 30px;
+  font-family: CircularStd;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #97a4ba;
+}
+.Rectangle-h {
+  width: 239.3px;
+  height: 78.4px;
+  margin: 50px 139.8px 0.6px 0;
+  padding: 24.9px 312.1px 23.5px 39.2px;
+  border-radius: 39.2px;
+  border: solid 1.6px #d6d6d6;
+  background-color: var(--white);
+}
+
+
+.REQUEST {
+  width: 115px;
+  height: 34px;
+  font-family: CircularStd;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
+  padding-right: 40px;
+  
+}
+
+
+.Rectangle-Copy {
+  width: 210px;
+  height: 78.4px;
+  padding: 23px 47px 21.4px 48px;
+  border-radius: 39.2px;
+  background-color: var(--robins-egg);
+}
+
+
+.Header-Copy {
+  width: 1280px;
+  height: 264px;
+  padding: 35px 192px 28px 130px;
+  background-color: var(--white);
+}
+
+.Path {
+  width: 2.7px;
+  height: 2.7px;
+  margin: 0.7px 3.4px 3.1px 2.5px;
+  background-color: #263237;
+}
+
+.We-are-an-Influencer {
+  width: 472px;
+  height: 109px;
+  margin: 28px 150px 16px 0;
+  object-fit: contain;
+  font-family: CircularStd;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #6a7575;
+  display: grid;
+}
+
+.Company {
+  width: 89px;
+  height: 25px;
+  margin: 0 44px 25px 0;
+  font-family: CircularStd;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #263237;
+}
