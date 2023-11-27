@@ -4,6 +4,7 @@
   position: fixed;
   top: 0;
   z-index: 10;
+  
 }
 *{
   margin: 0;
@@ -231,9 +232,16 @@ line-height: 2.2;
 letter-spacing: normal;
 color: #283040;
 }
+
+.sameRow1{
+  margin: auto;
+  width: 50%;
+  /* border: 3px solid green; */
+  padding: 10px
+}
 .Artboard3x {
-  width: 841px;
-  height: 492.1px;
+  width: 755px;
+  height: 452.1px;
   margin: 0 0 23.4px;
   border: solid 1.3px #dfd9d9;
 }
@@ -298,10 +306,11 @@ img.We-are-an-Influencer {
 .Rectangle1 {
   width: 1279px;
   height: 396px;
-  margin: 150px 0 57px 1px;
+  /* margin: 28px 0 57px 1px; */
   padding: 86px 309px 110px 310px;
   border: solid 1px #e0e0e0;
   background-color: var(--white);
+  padding-top: 138px;
 }
 .Schedule-Your-Demo-T {
   width: 562px;
@@ -337,7 +346,8 @@ img.We-are-an-Influencer {
   padding: 24.9px 312.1px 23.5px 39.2px;
   border-radius: 39.2px;
   border: solid 1.6px #d6d6d6;
-  background-color: var(--white);
+  background-color:  var(--robins-egg);
+
 }
 
 
@@ -352,7 +362,7 @@ img.We-are-an-Influencer {
   line-height: 1.42;
   letter-spacing: normal;
   text-align: center;
-  color: var(--white);
+  color: var(--robins-egg);
   padding-right: 40px;
   
 }
@@ -372,6 +382,14 @@ img.We-are-an-Influencer {
   height: 264px;
   padding: 35px 192px 28px 130px;
   background-color: var(--white);
+  
+}
+
+.image-row {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 .Path {
@@ -397,16 +415,57 @@ img.We-are-an-Influencer {
   display: grid;
 }
 
-.Company {
-  width: 89px;
-  height: 25px;
-  margin: 0 44px 25px 0;
-  font-family: CircularStd;
-  font-size: 20px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #263237;
+.Oval-1 {
+  width: 26px;
+  height: 26px;
+  margin: 16px 14px 0 1px;
+  padding: 6.3px 10.3px 6.7px 10px;
+  /* background-color: #8e99a8; */
+  border-radius: 50%;
 }
+
+
+.Fill-4 {
+  width: 5.7px;
+  height: 13px;
+  background-color: var(--white);
+}
+.company-1{
+      text-align: center;
+      top: 10px;
+}
+footer .footer--heading {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #888;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 0;
+}
+h4 {
+  display: block;
+  margin-block-start: -19.67em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+ul{
+  display: block;
+  top: 20px;
+  
+}
+li{
+  list-style: none;
+  /* display: inline-flex; */
+  padding: 10px;
+}
+  
+a{
+  text-decoration: none;
+}
+  
+ .content{
+  padding: 121px;
+  text-align: right;
+ }
