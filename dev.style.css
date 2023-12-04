@@ -1,0 +1,14 @@
+
+.Campaign-Invitation {
+  width: 600px;
+  height: 1183px;
+  padding: 67px 40px 34px 50px;
+  background-color: var(--white);
+}
+
+img.Socialfame-logo {
+    width: 181px;
+    height: 30px;
+    margin: 0 169px 62px 160px;
+    object-fit: contain;
+  }
