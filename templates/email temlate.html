@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <title> template</title> 
     <style>
         body{
             margin: 0;
             padding: 0;
-            background: lightgray;
+            background: #cccccc;
 
         }
         table{
             border-spacing: 0;
-            text-align: center;
-            padding: 40px 40px 40px 40px;
            
         
         }
@@ -29,61 +28,280 @@
         .wrapper{
             width: 100%;
             table-layout: fixed;
-            padding-bottom: 40px;
-        }
-
-        .webkit{
-            max-width: 600px;
-            background-color: #ffffff;
-        }
-
-        .outer{
-            margin: 0 auto;
-            width: 100%;
-            max-width: 600px;
+            background-color: #cccccc;
+            padding-bottom: 60px;
             border-spacing: 0;
+            font-family:  sans-serif;
+            color: #171a1b;
+           
         }
-        @media screen and (max-width:600px) {
+
+        .main{
+           width: 100%;
+           background-color: #ffffff;
+           margin: 0 auto;
+           max-width: 600px;
+        }
+
+        .two-colums{
+            text-align: center;
+            font-size: 0;
+           
+        }
+
+        .two-colums .colum{
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            padding-right: 5px;
+        }
+
+        .three-colum{
+            text-align: center;
+            font-size: 0;
+            padding: 15px 0 25px;
+        }
+
+        .three-colum .colum{
+            width: 100%;
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            
+        }
+
+        .three-colum .padding{
+            padding: 15px;
+        }
+
+        .three-colum .content{
+            font-size: 15px;
+            line-height: 20px;
+            padding: 0 5px;
+
+        }
+
+       
+
+        .two-colums.content{
+            font-size: 15px;
+            line-height: 20px;
+            text-align: left;
+        }
+
+        .two-colums.padding{
+            padding: 15px ;
+        } 
+.button-dark{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+   
+}
+     
+        img{
+            padding: 10px;
+        }
+        /* @media screen and (max-width:600px) {
             
         }
         @media screen and (max-width:400px) {
             
-        }
+        } */
     </style>
 </head>
 <body>
     <center class="wrapper">
-        <div class="webkit">
-            <table class="outer" align="center" width="100%" style="border-spacing: 0;">
-            <tr>
-            <td style="background-color: #388CDA; padding: 10px; text-align: center;">
-     <a href="#"><img src="https://socialfaim.com/app/assets/images/logo-new.png" width="180"></a>
-            </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=600" width="600">
-                </td>
-            </tr>
-            
-           
-        </table>
-        <table align="center" width="100%" style="padding: auto;" >
-            <tr>
-                <td >
-                    <img src="https://images.pexels.com/photos/440320/pexels-photo-440320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="100%">
-                </td>
-                <br>
-                <td>
-                    <img src="https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="100%">
-                </td>
-                <td>
-                    <img src="https://images.pexels.com/photos/5054351/pexels-photo-5054351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="100%">
-                </td>
-            </tr>
-        </table>
+        <table class="main" width="100%">
+       <tr>
+        <td height="8" style="background-color: #171a1b;">
 
-        </div>
+        </td>
+       </tr>
+    <tr>
+        <td style="padding: 14px 0 4px;">
+            <table width="100%">
+                <tr>
+                    <td class="two-colums">
+                        <table class="colum">
+                            <tr>
+                                <td style="padding: 0 62px 10px;">
+                                    <a href="#"><img src="modern.jpg" width="150px"></a>
+                                </td>
+                            </tr>
+                        </table>
+                        <table class="colum">
+                            <tr>
+                                <td style="padding: 10px 72px;" >
+                                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/733/733547.png" width="30px"></a>
+                                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" width="30px"></a>
+                                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/3256/3256013.png" width="30px"></a>
+                                   </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!---banner-->
+                <tr>
+                    <td>
+                        <a href="#"><img src="banner.jpg" width="600" style="max-width: 98%;"></a>
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+    <!---three colum-->
+      <tr>
+        <td>
+            <table width="100%">
+               <tr>
+                <td class="three-colum">
+                    <table class="colum">
+                  <tr>
+                    <td class="padding">
+                        <table class="content">
+                            <tr>
+                                <td>
+                                    <a href="#"><img src="email.png" width="130px" style="max-width: 130px;"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p style="font-weight: bold; font-size: 17px;">Ecommers</p>
+                                    <p>Responsive HTML Emaile Template Course to master email development.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                  </tr>
+                    </table>
+                    <table class="colum">
+                        <tr>
+                          <td class="padding">
+                              <table class="content">
+                                  <tr>
+                                      <td>
+                                          <a href="#"><img src="settings.png" width="130px" style="max-width: 130px;"></a>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td>
+                                          <p style="font-weight: bold; font-size: 17px;">Web Design</p>
+                                          <p>Responsive HTML Emaile Template Course to master email development.</p>
+                                      </td>
+                                  </tr>
+                              </table>
+                          </td>
+                        </tr>
+                          </table>
+                          <table class="colum">
+                            <tr>
+                              <td class="padding">
+                                  <table class="content">
+                                      <tr>
+                                          <td>
+                                              <a href="#"><img src="home.png" width="130px" style="max-width: 130px;"></a>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <p style="font-weight: bold; font-size: 17px;">Home</p>
+                                              <p>Responsive HTML Emaile Template Course to master email development.</p>
+                                          </td>
+                                      </tr>
+                                  </table>
+                              </td>
+                            </tr>
+                              </table>
+
+                </td>
+               </tr>
+            </table>
+        </td>
+      </tr>
+      <!----two colum-->
+    <tr>
+        <td style="background-color: #26292b; color: #ffffff;">
+            <table width="100%">
+<tr>
+    <td class="two-colums last">
+        <table class="colum">
+            <tr>
+                <td class=" padding">
+                    <table class="content">
+                        <tr>
+                            <td>
+                                <a href="#"><img src="keyboard.jpg" width="260" style="max-width: 260px;" ></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+        </table>
+        <table class="colum">
+            <tr>
+                <td class=" padding">
+                    <table class="content">
+                        <tr>
+                            <td>
+                               <p style="font-weight: bold; font-size: 18px;">Create Custum Design</p>
+                               <p style="padding-bottom: 16px;">over year this we haive built up a massive portfolio our client wbesite and email design</p>
+                               <a href="#" class="button">Read more</a> 
+           
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+        </table>
+    </td>
+
+</tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding: 15px 0 50px; ">
+            <table width="100%">
+<tr>
+    <td style="text-align: center; padding: 15px; ">
+     <p style="font-size: 18px; line-height: 23px; padding: 5px 0 15px;">HTML Email Template Course </p>
+     <p style="font-weight: bold; font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed provident, ad ipsam a vitae, iste, quidem minus quod culpa accusantium possimus veritatis totam amet deserunt vero laboriosam! Incidunt, tempore corrupti?</p>
+     <a href="#" class="button-dark";>View Course</a>
+</td>
+</tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td style="background-color: #171a1b;"> 
+            <table width="100%">
+            <tr>
+                <td style="text-align: center; padding: 45px 20px; color: #ffffff;">
+                    <img src="modern-white.png" width="180px">
+                    <p style="padding: 10px;">Modern Html Email</p>
+                    <p style="padding: 10px;">123 street Raod, pincode 275302</p>
+                    <p style="padding: 10px;">Subscribe</p>
+
+                </td>
+            </tr>
+            </table>
+        </td>
+    </tr>
+    </table>
+       
+
+        
     </center>
 </body>
 </html>

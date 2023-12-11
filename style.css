@@ -1,609 +1,73 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Courier New', Courier, monospace;
+  
 }
-
-.header{
-  width: 100%;
-  background: white;
-  position: fixed;
-  top: 0;
-  z-index: 10;
-}
-
-.flex {
-display: flex;
-}
-.sameRow {
-/* border: 2px solid black; */
-height: 40px;
-width: 100%;
-}
-.normal {
-height: 40px;
-border: 2px solid red;
-}
-
-.navbar{
-  width: 85%;
-  margin: auto;
-  display: flex;
+#banner{
+ background:linear-gradient(rgba(0,0,0,0.5),#009688),url("banner.jpg");
+ background-position: center;
+ background-size: cover;
+ height: 100vh;
 }
 
 .logo{
-  flex-basis: 15%;
-  display: flex;
-  align-items: center;
+  position: absolute;
+  top: 4%;
+  left: 10%;
+  width: 140px;
 }
 
-.logo img{
-  width: 100px;
-  margin: 5px 0;
+.banner-text{
+  text-align: center;
+  padding-top: 180px;
+  color: white;
+  
 }
-
-.navbar #list{
-   justify-content: flex-end;
-  flex: 1;
-  display: flex;
-
+.banner-text h1{
  
+  font-size: 130px;
+  
 }
 
-.navbar #list li{
+.banner-text p{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.banner-btn{
+  margin: 70px auto 0;
+}
+
+a{
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid white;
+  background: white;
+  font-size: 20px;
+  margin: 0 30px;
+}
+
+a:hover{
+  transition: 0.3;
+  background-color: rgb(13, 198, 198);
+}
+
+
+.navigation{
+  width: 170px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #009688;
+}
+
+nav ul li{
   list-style: none;
-  margin-left: 55px;
-  padding: 6px 26px;
-  border-radius: 18px;
-  display: flex;
-  font-size: 18px;
+  margin: 50px 10px;
 }
 
-.navbar #list li:hover{
-  background: aqua;
-}
-
-.navbar #list a{
+.and a{
   text-decoration: none;
 }
-
-
-  .Sign-In {
-      width: 82px;
-      height: 20px;
-      font-family: CircularStd;
-      font-size: 18px;
-      font-weight: 500;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.89;
-      letter-spacing: normal;
-      text-align: center;
-      color: var(--robins-egg);
-      border: 2px solid aqua;
-      border-radius: 25px;
-      padding: 10px 10px;
-    }
-    .Rectangle9 {
-      width: 1280px;
-      height: 556px;
-      margin: 75px 0 30px;
-      /* padding: 65px 0 86px 120px; */
-      background-color: var(--white);
-    }
-  
-    h1 {
-      width: 548px;
-      height: 115px;
-      margin: 32px 79px 19px 2px;
-      font-family: CircularStd;
-      font-size: 40px;
-      font-weight: 500;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.45;
-      letter-spacing: normal;
-      color: #000;
-      text-align: center;
-    }
-    h2 {
-      width: 462px;
-      height: 105px;
-      margin: 19px 80px 18px 60px;
-      font-family: CircularStd;
-      font-size: 22px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.27;
-      letter-spacing: normal;
-      color: #5d5d5d;
-      text-align: left;
-    }
-    
-    .IM-A-BRAND {
-      width: 178px;
-      height: 20px;
-      font-family: CircularStd;
-      font-size: 18px;
-      font-weight: bold;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.89;
-      letter-spacing: normal;
-      text-align: center;
-      color: var(--robins-egg);
-      border: 2px solid aqua;
-      border-radius: 25px;
-      padding: 13px 19px;
-      margin-left: 70px;
-     
-    }
-
-   .images-main {
-      width: 616px;
-      height: 387px;
-      margin: 0 0 18px 80px;
-      object-fit: contain;
-      border: solid 1px #eee;
-      float: right;
-      
-    }
-
-    .know{
-      text-align: center;
-    }
-
-    .plug{
-      align-items: center;
-    }
-
-   
-
-
-    .blog {
-      width: 178px;
-      height: 20px;
-      font-family: CircularStd;
-      font-size: 18px;
-      font-weight: bold;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.89;
-      letter-spacing: normal;
-      text-align: center;
-      color: #fff;
-      border-radius: 25px;
-      border-radius: 2px solid aqua;
-      background: aqua;
-      padding: 13px 19px;
-      margin-left: 10px;
-    }
-    
-    .banner h1 {
-      width: 394px;
-      height: 38px;
-      margin: 0 315px 16px 313px;
-      font-family: CircularStd;
-      font-size: 30px;
-      font-weight: 500;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: center;
-      color: #000;
-      /* padding-top: 700px; */
-    }
-
-    .know {
-      width: 476px;
-      height: 120px;
-      margin: 132px 70px 14px 0;
-      font-family: CircularStd;
-      font-size: 40px;
-      font-weight: 500;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      color: #000;
-     top: 10px;
-     
-    }
-    .plug {
-      width: 456px;
-      height: 120px;
-      margin: 250px 90px 170px 200px;
-      object-fit: contain;
-      font-family: CircularStd;
-      font-size: 18px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.44;
-      letter-spacing: normal;
-      color: #6a7575;
-    }
-
-    img.Bitmap {
-      width: 476px;
-      height: 468px;
-      margin: 24px 0 0 70px;
-      object-fit: contain;
-      float: inline-end;
-    }
-
-    img.dinamic {
-      width: 150px;
-      height: 114px;
-      margin: 0 9px 37px 10px;
-      object-fit: contain;
-      box-shadow: 0 3px 5px 0 rgba(112, 56, 193, 0.54);
-    }
-
-    .isomer{
-      width: 150px;
-      height: 114px;
-      margin: 0 0 37px;
-      object-fit: contain;
-      box-shadow: 0 3px 5px 0 #5aeaf3;
-    }
-    
-    .brand{
-      width: 150px;
-      height: 114px;
-      margin: 0 3px 37px 4px;
-      object-fit: contain;
-      box-shadow: 0 3px 5px 0 #4ae42b;
-    }
-    .Rectangle {
-      width: 1280px;
-      height: 425px;
-      margin: 300px 0 74px;
-      padding: 79px 192px 76px 186px;
-      background-color: #f9faff;
-    }
-    
-    .m {
-      width: 136px;
-      height: 82px;
-      margin: 37px 16px 0 17px;
-      font-family: CircularStd;
-      font-size: 56px;
-      font-weight: bold;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.07;
-      letter-spacing: 1.87px;
-      text-align: center;
-      color: #000;
-    }
-
-    .main-data {
-      width: 169px;
-      height: 37px;
-      margin: 119px 0 0;
-      opacity: 0.47;
-      font-family: CircularStd;
-      font-size: 29px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: center;
-      color: #000;
-    }
-
-    .k {
-      width: 139px;
-      height: 82px;
-      margin: 37px 0 1px 11px;
-      font-family: CircularStd;
-      font-size: 56px;
-      font-weight: bold;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.07;
-      letter-spacing: 1.87px;
-      text-align: center;
-      color: #000;
-    }
-    .Content {
-      width: 110px;
-      height: 36px;
-      margin: 1px 14px 0 26px;
-      opacity: 0.47;
-      font-family: CircularStd;
-      font-size: 28px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: center;
-      color: #000;
-    }
-    
-
-    .km {
-      width: 157px;
-      height: 82px;
-      margin: 37px 0 0;
-      font-family: CircularStd;
-      font-size: 56px;
-      font-weight: bold;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.07;
-      letter-spacing: 1.87px;
-      text-align: center;
-      color: #000;
-    }
-
-    .Brands {
-      width: 130px;
-      height: 37px;
-      margin: 119px 13px 0 14px;
-      opacity: 0.47;
-      font-family: CircularStd;
-      font-size: 29px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: center;
-      color: #000;
-    }
-
-    .Integrated-influence {
-      width: 768px;
-      height: 38px;
-      margin:0 0 16px ;
-      font-family: CircularStd;
-      font-size: 30px;
-      font-weight: 500;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: center;
-      color: #000;
-      
-      
-     
-    }
-
-    h3.Integrated-influence{
-      text-align: center;
-      
-    }
-    
-    .Rectangle1 {
-      width: 268px;
-      height: 377px;
-      margin: 96px 25px 0 10%;
-      padding: 22px 28px 26px 29px;
-      border-radius: 6px;
-      background-color: #a368fa;
-    }
-    .Oval {
-      width: 91px;
-      height: 91px;
-      margin: 0 60px 23px;
-      padding: 32px 33px 29px 28px;
-      background-color: #c096fd;
-    }
-    .Path {
-      width: 22.5px;
-      height: 30px;
-      margin: 0 0 0 3px;
-      background-color: #fff;
-    }
-
-    .Content-Creation-Mad {
-      width: 398px;
-      height: 38px;
-      margin: 0 0 16px;
-      font-family: CircularStd;
-      font-size: 30px;
-      font-weight: 500;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: center;
-      color: #000;
-    }
-
-    h1.Content-Creation-Ma{
-      text-align: center;
-      margin-left: 10%;
-    }
-
-    .Home-Landign-Page {
-      width: 1280px;
-      height: 5558px;
-      background-color: white;
-     
-    }
-    img.We-facilitate-beauti {
-      width: 844px;
-      height: 31px;
-      margin: 22px 133px 534px;
-      object-fit: contain;
-      font-family: CircularStd;
-      font-size: 18px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 0.17;
-      letter-spacing: normal;
-      text-align: center;
-      color: #6a7575;
-    }
-
-   
-   
-    img.Content-Creation-Made-Easy {
-      width: 1110px;
-      height: 563px;
-      margin: 24px 0 0;
-      object-fit: contain;
-    }
-    
-    .Rectangle4 {
-      width: 1280px;
-      height: 597px;
-      margin: 86px 0 48px;
-      padding: 63px 144px 84px 165px;
-      background-color: #f9faff;
-    }
-    .Full-Stack-Influence {
-      width: 642px;
-      height: 36px;
-      margin: 0 175px 18px 154px;
-      font-family: CircularStd;
-      font-size: 30px;
-      font-weight: 500;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: center;
-      color: #000;
-    }
-
-    img.Group-14 {
-      width: 340px;
-      height: 340px;
-      margin: 50px 63px 0 0;
-      object-fit: contain;
-     
-    }
-
-    .Rectangle5 {
-      width: 1280px;
-      height: 597px;
-      margin: 86px 0 48px;
-      padding: 63px 144px 84px 165px;
-      background-color: #f9faff;
-    }
-
-    .Rectangle6 {
-      width: 1280px;
-      height: 597px;
-      margin: 86px 0 48px;
-      padding: 63px 144px 84px 165px;
-      background-color: #f9faff;
-    }
-
-    .Prove-Your-Influence {
-      width: 476px;
-      height: 120px;
-      margin: 83px 0 14px 155px;
-      font-family: CircularStd;
-      font-size: 40px;
-      font-weight: 500;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      color: #000;
-     
-    }
-
-    .Rectangle7 {
-      width: 100%;
-      height: 100px;
-      margin: 86px 0 48px;
-      padding: 63px 144px 84px 165px;
-      background-color: #f9faff;
-    }
-
-    img.Make-data-driven-dec {
-      width: 456px;
-      height: 149px;
-      margin: 14px 20px 26px 155px;
-      object-fit: contain;
-      font-family: CircularStd;
-      font-size: 18px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.44;
-      letter-spacing: normal;
-      color: #6a7575;
-    }
-
-    .Create-Unlimited-Brn {
-      width: 506px;
-      height: 38px;
-      margin: 0 239px 16px 201px;
-      font-family: CircularStd;
-      font-size: 30px;
-      font-weight: 500;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: center;
-      color: #000;
-    }
-
-    .Rectangle8 {
-      width: 145px;
-      height: 6px;
-      margin: 16px 419px 32px 382px;
-      border-radius: 4.5px;
-      background-color: aqua;
-    }
-
-    img.Turn-your-influencer {
-      width: 946px;
-      height: 52px;
-      margin: 31px 0 0;
-      object-fit: contain;
-      font-family: CircularStd;
-      font-size: 18px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.44;
-      letter-spacing: normal;
-      text-align: center;
-      color: #6a7575;
-    }
-
-    
-img.Group-17 {
-  width: 1280px;
-  height: 277px;
-  margin: 39px 0 0;
-  object-fit: contain;
-  align-items: center;
-}
-.Path {
-  width: 2.7px;
-  height: 2.7px;
-  margin: 0.7px 3.4px 3.1px 2.5px;
-  background-color: #263237;
-}
-.fame {
-  width: 66.8px;
-  height: 20.8px;
-  margin: 0.2px 0 0 2.5px;
-  background-color: var(--robins-egg);
-} 
-
-
-
-    
-
-    
-    
-    
-    
-    
