@@ -452,6 +452,60 @@ p{
   font-size: 13px;
 }
 
+.setting-menu{
+  width: 90%;
+  /* height: 500px; */
+  max-width: 350px;
+  position: absolute;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  top: 100%;
+  right: 3.5%;
+  background: #fff;
+
+}
+
+.user-profile a{
+  text-decoration: none;
+  font-size: 13px;
+  color: #1876f2;
+}
+
+.setting-menu{
+  padding: 20px;
+  
+}
+
+.setting-menu hr{
+  border: 0;
+  height: 1px;
+  margin: 15px 0;
+  background: #9a9a9a;
+}
+
+.setting-links{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.setting-links.setting-icons{
+  width: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.setting-links a{
+  text-decoration: none;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  color: #626262;
+}
+
+
+
 
 
 
