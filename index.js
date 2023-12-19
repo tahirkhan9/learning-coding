@@ -1,4 +1,5 @@
-let fullName = prompt("Enter your fullname without spacing");
+let cities = ["delhi","mumbai","kanpur","lucknow"];
 
-let username =  "@" + fullName + fullName.lenght;
-console.log(username);
+for (let city of cities) {
+    console.log(city.toUpperCase());
+}
