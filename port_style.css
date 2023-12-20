@@ -162,18 +162,15 @@
     text-align: center;
     padding-top: 20px;
 }
-.colum{
-    display: flex;
-    margin-top: 5%;
-    justify-content: space-between;
-}
 
-.campus-col{
+
+.campus-col {
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 30px;
     overflow: hidden;
     position: relative;
+    align-items: left;
 }
 
 .campus-col img{
