@@ -1,0 +1,283 @@
+
+*{margin: 0;
+padding: 0;
+}
+
+
+.header{
+width: 100%;
+height: 90vh;
+background-color: rgb(26, 26, 250);
+border-bottom-right-radius: 288px;
+
+
+
+
+.logo {
+width: 200px;
+height: 25px;
+}
+nav{
+padding: 2% 6%;
+ display: flex;
+}
+
+.nav-link ul{
+ display: inline;
+}
+
+ul li{
+display: inline;
+list-style: none;
+margin-left: 50px;
+margin-top: 20px;
+justify-content: space-between;
+color: white;
+}
+
+
+ul li a{
+text-decoration: none;
+transition: 2s;
+font-size: 20px;
+color: white;
+
+}
+
+ul li a:hover{
+background-color: brown;
+}
+
+}
+
+
+.btn{
+    margin-left: 210px;
+    font-size: 17px;
+    color: white;
+    /* padding: 5px 10px; */
+    border: none;
+    background: transparent;
+    
+   
+  }
+  
+  .nbn{
+    margin-right: 25px;
+     margin-left: 38px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #851a1a;
+   border-radius: 20px;
+   border: none;
+   color: white;
+   transition: 3s ease-out;
+  }
+
+  .nbn:hover{
+    color: #851a1a;
+  }
+
+  
+.content{
+    width: 1280px;
+    height: 290px;
+    margin: 75px 0 30px;
+    padding: 10px 0 86px 120px;
+    background-color: var(--white);
+  }
+  
+  h1 {
+    width: 700px;
+    height: 13px;
+    
+    font-family: CircularStd;
+    font-size: 40px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: white;
+    text-align: center;
+    float: left;
+  }
+
+  
+p {
+    width: 686px;
+    height: 105px;
+   margin-bottom: 60px;
+    font-family: CircularStd;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    color: black;
+    text-align: left;
+    float: right;
+  }
+  
+  
+  
+  .image-tag {
+    width: 616px;
+  height: 387px;
+    margin: 0 0 18px -62px;
+    object-fit: contain;
+    border: solid 1px #eee;
+    float: right;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    
+  }
+
+  .same h5{
+    color: white;
+   
+  }
+
+  .same p{
+    margin-top: 90px;
+  
+  }
+
+  .same h1{
+    font-size: 30px;
+    padding-left: -16px;
+    
+  }
+  
+  .ntn{
+    padding: 10px 15px;
+    background-color: tomato;
+    border-radius: 20px;
+    border: 2px solid;
+    text-align: center;
+  }
+
+  .image-ta{
+  
+    width: 616px;
+    height: 387px;
+      margin: 129 0 18px -62px;
+      object-fit: contain;
+      border: solid 1px #eee;
+      float: right;
+     padding-top: 56px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+  }
+
+  h2 {
+    width: 700px;
+    height: 13px;
+    margin-top: 65px;
+    font-family: CircularStd;
+    font-size: 40px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 1.45; */
+    letter-spacing: normal;
+    color: black;
+    text-align: center;
+    float: left;
+  }
+ 
+
+  .canva p{
+    margin-right: 30px;
+  }
+
+  .image-tab{
+  
+    width: 616px;
+    height: 387px;
+      margin: 129 0 18px -62px;
+      object-fit: contain;
+      border: solid 1px #eee;
+      float: left;
+     padding-top: 56px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+  }
+
+  
+  h2 {
+    width: 700px;
+    height: 13px;
+    margin-top: 65px;
+    font-family: CircularStd;
+    font-size: 40px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 1.45; */
+    letter-spacing: normal;
+    color: black;
+    text-align: center;
+    float: left;
+  }
+
+  .image-tag{
+  
+    width: 616px;
+    height: 387px;
+      margin: 129 0 18px -62px;
+      object-fit: contain;
+      border: solid 1px #eee;
+      float: right;
+     padding-top: 56px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+  }
+
+  
+  .image-tan{
+  
+    width: 616px;
+    height: 387px;
+      margin: 129 0 18px -62px;
+      object-fit: contain;
+      border: solid 1px #eee;
+      float: left;
+     padding-top: 56px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+  }
+
+  /* .our{
+    
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+   
+  } */
+
+  .canva h6{
+    width: 700px;
+    height: 13px;
+    margin-top: 65px;
+    font-family: CircularStd;
+    font-size: 40px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 1.45; */
+    letter-spacing: normal;
+    color: black;
+    text-align: center;
+    float: right;
+  }
+
+  
+ 
